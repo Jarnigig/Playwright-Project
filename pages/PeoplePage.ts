@@ -1,0 +1,1 @@
+// export default class PeoplePage extends <ReturnType <typeof >>

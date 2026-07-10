@@ -1,0 +1,21 @@
+export  const locators={
+    signIn:{
+        email:"//input[@placeholder='Email']",
+        password:"//input[@placeholder='Password']",
+        rememberMeCheckbox:"//input[@id='normal_login_remember']",
+        forgotPasswordLink:"//a[@class='login-form-forgot']",
+        logInButton:"//button[@type='submit']",
+        registerNowLink:"//a[text()='Register Now']"
+    },
+    companies:{
+        companiesSideBar:"//span[@class='ant-menu-title-content']/a[text()='Companies']",
+        addNewPersonBtn:"(//div[@class='ant-space-item'])[5]/button[@type='button']",
+        sidebar:"//div[@class='ant-drawer-content-wrapper']",
+        nameField:"//input[@id='name']",
+        contactField:"//input[@id='_r_3v_']",
+        countryField:"//input[@id='country']",
+        phoneField:"//input[@id='phone']",
+        emailField:"//input[@id='email']",
+        submitBtn:"//button[@type='submit']"
+    }
+}
