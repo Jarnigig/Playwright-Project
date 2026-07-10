@@ -6,5 +6,7 @@ test("Global Setup",async({loginPage})=>{
     await loginPage.page.goto("https://cloud.idurarapp.com")
     await loginPage.login()
 
+    await loginPage.page.context().storageState({ path: '../../.auth/user.json' as string });
+
     console.log("Global Setup Completed")
 })

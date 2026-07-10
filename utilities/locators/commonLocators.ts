@@ -7,6 +7,16 @@ export  const locators={
         logInButton:"//button[@type='submit']",
         registerNowLink:"//a[text()='Register Now']"
     },
+    people:{
+        peopleSidebar:"//a[@href='/people']",
+        addNewButton:"(//div[@class='ant-space-item'])[5]/button[@type='button']",
+        firstName:'//input[@id="firstname"]',
+        lastName:"//input[@id='lastname']",
+        country:"//input[@id='country']",
+        phone:"//input[@id='phone']",
+        email:"//input[@id='email']",
+        submitButton:"//button[@type='submit']"
+    },
     companies:{
         companiesSideBar:"//span[@class='ant-menu-title-content']/a[text()='Companies']",
         addNewPersonBtn:"(//div[@class='ant-space-item'])[5]/button[@type='button']",
